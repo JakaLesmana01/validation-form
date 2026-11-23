@@ -5,36 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>form validator</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
     <div class="container">
-        <form class="registation-form">
-            <h1>REGISTATION</h1>
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter username">
-                <small></small>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter email">
-                <small></small>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter password">
-                <small></small>
-            </div>
-            <div class="form-group">
-                <label for="confimPassword">Confirm Password</label>
-                <input type="confimPassword" id="confimPassword" placeholder="Confirm password">
-                <small></small>
-            </div>
-
-            <button type="submit">Registation</button>
-        </form>
+      <form id="registration-form">
+        <h1>REGISTATION</h1>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter email" />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small></small>
+        </div>
+        <div class="form-group">
+          <label for="confimPassword">Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm password"
+          />
+          <small></small>
+        </div>
+        <button type="submit">Registation</button>
+      </form>
     </div>
     <script src="script.js"></script>
   </body>

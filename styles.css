@@ -6,7 +6,7 @@
 
 body{
     background-color:#f9f9f9;
-    font-family: inter;
+    font-family: poppins;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +68,7 @@ button{
     cursor:pointer;
     display: block;
     width: 100%;
-    margin-top:20px;
+    margin-top:25px;
     padding:12px;
     border:none;
     color:white;
@@ -89,7 +89,6 @@ button:hover{
 
 .form-group.success input{
     border: 2px solid #55f177;
-    background-color:#f8fef8;
 }
 
 .form-group.error small{
